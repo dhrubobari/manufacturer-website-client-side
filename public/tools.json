@@ -3,18 +3,21 @@
         "name": "Stainless Plasterers",
         "img": "https://www.romerils.com/wp-content/uploads/2020/04/22231.jpg",
         "description": "Ox Pro 127x356mm Stainless Steel Plasterers Trowel",
-        "quantity": 200
+        "quantity": 200,
+        "price": 109
     },
     {
         "name": "Electrical Strippers",
         "img": "https://www.specialized.net/media/catalog/product/cache/1faf9a0de9577f21c47f9ae493fa1e03/0/5/054x762_pli-jonard-wsc-826.jpg",
         "description": "Spectris Tool S2022C Adjustable Wire Stripper, 10-24 AWG",
-        "quantity": 160
+        "quantity": 160,
+        "price": 120
     },
     {
         "name": "Machinist Hammer",
         "img": "https://ronixtools.com/en/blog/wp-content/uploads/2020/11/3-30.jpg",
         "description": "CRAFTSMAN Hammer, 22 oz Steel Framing (CMHT51435)",
-        "quantity": 205
+        "quantity": 205,
+        "price": 95
     }
 ]
