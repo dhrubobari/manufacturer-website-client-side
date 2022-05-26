@@ -13,7 +13,7 @@ const Review = () => {
           <div class="w-24 rounded border border-silver-400">
               <img src={company} />
           </div>
-            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacturing</span></p>
+            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacture</span></p>
             <p class="text-left py-8">The tools and equipments are very good quality products.</p>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Review = () => {
           <div class="w-24 rounded border border-silver-400">
               <img src={company} />
           </div>
-            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacturing</span></p>
+            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacture</span></p>
             <p class="text-left py-8">The tools and equipments are very good quality products.</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Review = () => {
           <div class="w-24 rounded border border-silver-400">
               <img src={company} />
           </div>
-            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacturing</span></p>
+            <p class="text-left text-sm">Review from: <span class="font-semibold">Mendin Manufacture</span></p>
             <p class="text-left py-8">The tools and equipments are very good quality products.</p>
           </div>
         </div>
