@@ -4,7 +4,7 @@ const Tool = ({ tool }) => {
   const { img, name, description, quantity, price } = tool;
 
   return (
-    <div class="card card-compact w-9/12 bg-base-100 shadow-2xl my-28 ml-12">
+    <div class="card card-compact w-9/12 bg-base-100 shadow-2xl my-20 ml-12">
       <figure>
         <img
           src={img}
