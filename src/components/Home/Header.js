@@ -1,7 +1,7 @@
 import { signOut } from "firebase/auth";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import auth from "../../firebase.init";
 
 const Header = () => {
@@ -29,6 +29,9 @@ const Header = () => {
       <ul class="menu menu-horizontal p-0">
         <li><a href="/">Home</a></li>
         <li><a>Tools</a></li>
+        {
+          user && <li><Link to="/dashboard">Dashboard</Link></li>
+        }
         {user ? 
           <button class="btn btn-active btn-ghost text-sm" onClick={handleSignOut}>
             Logoff
