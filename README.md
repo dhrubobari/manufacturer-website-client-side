@@ -1,3 +1,11 @@
+# My project name: SharpMaster Manufacturing
+# Live: https://magnificent-praline-eb1e7f.netlify.app/
+
+# ∙ I made a Manufacturer Website
+# ∙ The website is about manufacturing tools and equipments
+# ∙ In the website I have created many pages about the website
+# ∙ In the blogs route I have wrote some blogs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

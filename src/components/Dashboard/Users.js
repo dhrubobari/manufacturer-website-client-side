@@ -5,7 +5,7 @@ import User from './User';
 const queryClient = new QueryClient();
 
 const fetchUsers = async () => {
-    const res = await fetch('http://localhost:5000/user');
+    const res = await fetch('https://limitless-depths-35925.herokuapp.com/user');
     return res.json();
 }
 

@@ -6,7 +6,7 @@ const Purchase = () => {
   const [tool, setTool] = useState({});
 
   useEffect(() => {
-    const url = `http://localhost:5000/purchase/${purchaseId}`;
+    const url = `https://limitless-depths-35925.herokuapp.com/purchase/${purchaseId}`;
 
     fetch(url)
       .then((res) => res.json())
