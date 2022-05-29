@@ -1,13 +1,13 @@
 import React from "react";
-import toolbox from "../../toolbox.jpeg";
+import equipments from "../../equipments.jpg";
 
 const Banner = () => {
   return (
     <div class="hero min-h-screen bg-base-100">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img
-          src={toolbox}
-          class="max-w-sm rounded-lg shadow-xl"
+          src={equipments}
+          class="max-w-lg rounded-lg shadow-xl"
         />
         <div>
           <h1 class="text-4xl font-medium">INNOVATIVE EQUIPMENTS</h1>

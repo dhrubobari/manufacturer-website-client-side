@@ -12,6 +12,7 @@ import MyOrder from './components/Dashboard/MyOrder';
 import Dashboard2 from './components/Dashboard/Dashboard2';
 import AddReview from './components/Dashboard/AddReview';
 import Users from './components/Dashboard/Users';
+import MyProfile from './components/Dashboard/MyProfile';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route path="orders" element={<MyOrder></MyOrder>}></Route>
       <Route path="addreview" element={<AddReview></AddReview>}></Route>
       <Route path="users" element={<Users></Users>}></Route>
+      <Route path="profile" element={<MyProfile></MyProfile>}></Route>
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
