@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import useToken from '../Token/useToken';
 
 const Register = () => {
     const emailRef = useRef('');
@@ -13,7 +14,9 @@ const Register = () => {
 
     const [signInWithGoogle, gUser] = useSignInWithGoogle(auth);
 
-    if (user || gUser) {
+    const [token] = useToken(user || gUser);
+
+    if (token) {
        navigate('/');
     }
 

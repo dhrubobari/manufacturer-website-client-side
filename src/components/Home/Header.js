@@ -33,7 +33,7 @@ const Header = () => {
           user && <li><Link to="/dashboard">Dashboard</Link></li>
         }
         {user ? 
-          <button class="btn btn-active btn-ghost text-sm" onClick={handleSignOut}>
+          <button class="btn btn-active btn-ghost text-sm text-white" onClick={handleSignOut}>
             Logoff
           </button>
             : 

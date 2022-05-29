@@ -9,6 +9,9 @@ import Register from './components/Login/Register';
 import Purchase from './components/Tools/Purchase';
 import Tools from './components/Tools/Tools';
 import MyOrder from './components/Dashboard/MyOrder';
+import Dashboard2 from './components/Dashboard/Dashboard2';
+import AddReview from './components/Dashboard/AddReview';
+import Users from './components/Dashboard/Users';
 
 function App() {
   return (
@@ -18,8 +21,14 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/tool" element={<Tools />} />
       <Route path="/purchase/:purchaseId" element={<ProtectRoute><Purchase /></ProtectRoute>} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/orders" element={<MyOrder />} />
+      <Route path="/dashboard" element={
+      <Dashboard />
+      } >
+      <Route index element={<Dashboard2></Dashboard2>}></Route>
+      <Route path="orders" element={<MyOrder></MyOrder>}></Route>
+      <Route path="addreview" element={<AddReview></AddReview>}></Route>
+      <Route path="users" element={<Users></Users>}></Route>
+      </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       </Routes>

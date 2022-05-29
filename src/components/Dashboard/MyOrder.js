@@ -4,7 +4,7 @@ const MyOrder = () => {
 
     return (
         <div>
-            <h2 class="text-2xl">Your Orders</h2>
+            <h2 class="text-2xl">Your Orders List</h2>
         </div>
     );
 };
