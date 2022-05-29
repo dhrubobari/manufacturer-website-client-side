@@ -13,6 +13,8 @@ import Dashboard2 from './components/Dashboard/Dashboard2';
 import AddReview from './components/Dashboard/AddReview';
 import Users from './components/Dashboard/Users';
 import MyProfile from './components/Dashboard/MyProfile';
+import Blogs from './components/Home/Blogs';
+import NotFound from './components/Home/NotFound';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/tool" element={<Tools />} />
+      <Route path="/blogs" element={<Blogs />} />
       <Route path="/purchase/:purchaseId" element={<ProtectRoute><Purchase /></ProtectRoute>} />
       <Route path="/dashboard" element={
       <Dashboard />
@@ -33,6 +36,7 @@ function App() {
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
